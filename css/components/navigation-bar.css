@@ -1,0 +1,30 @@
+.navigation {
+  background-color: aliceblue;
+  padding: 20px 50px;
+  border-top: 1px solid rgba(0, 0, 0, 0.397);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.navigation__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation__link {
+  position: relative;
+}
+
+.navigation__notification {
+  position: absolute;
+  right: -20px;
+  bottom: 20px;
+}
+
+.navigation__notification2 {
+  position: absolute;
+  right: -10px;
+  bottom: 30px;
+}
