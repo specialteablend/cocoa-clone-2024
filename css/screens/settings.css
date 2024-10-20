@@ -1,6 +1,27 @@
 .settings__setting {
-    padding: 20px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.settings-setting {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px rgba(128, 128, 128, 0.171) solid;
+  justify-content: space-between;
+}
+
+.settings-setting span {
+  font-size: 40px;
+}
+
+.settings-setting i {
+  padding: 30px;
+  margin-right: 40px;
+}
+
+.settings-setting__column:last-child {
+  opacity: 0.3;
 }

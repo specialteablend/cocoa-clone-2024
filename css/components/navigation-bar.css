@@ -17,10 +17,23 @@
   position: relative;
 }
 
+@keyframes notificationanimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotate(20deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .navigation__notification {
   position: absolute;
   right: -20px;
   bottom: 20px;
+  animation: notificationanimation 0.8s ease-in-out infinite;
 }
 
 .navigation__notification2 {
